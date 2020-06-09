@@ -16,8 +16,8 @@ const ProductProvider = ({ children }) => {
   React.useEffect(() => {
     setLoading(true);
     axios.get(`${url}/products`).then((response) => {
-      const featured = featuredProducts(response.data);
-      // console.log(response.data[0]);
+      const featured = featuredProducts(flattenProducts(response.data));
+      // console.log(featuredProducts(response.data));
       const products = flattenProducts(response.data);
 
       setProducts(products);

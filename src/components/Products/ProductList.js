@@ -7,6 +7,7 @@ export default function ProductList({ title, products }) {
       <h2 className="section-title">{title}</h2>
       <div className="products-center">
         {products.map((item) => {
+          // console.log(item);
           return <Product key={item.id} {...item} />;
         })}
       </div>
