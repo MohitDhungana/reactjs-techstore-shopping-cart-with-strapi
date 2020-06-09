@@ -1,4 +1,4 @@
-# REQUIRES STRAPI BACKEND AS API TO SERVE DATA TO THE APP
+# REQUIRES [STRAPI BACKEND](https://github.com/MohitDhungana/strapi-techstore-api) API TO SERVE DATA TO THE APP
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
